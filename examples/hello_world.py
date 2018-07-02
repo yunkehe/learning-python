@@ -22,3 +22,8 @@ print(favorite_language.rstrip())
 favorite_language = ' I\'m Frank.'
 print(favorite_language.upper())
 print(favorite_language.lower())
+
+
+# 查看pip支持的格式
+# import pip
+# print(pip.pep425tags.get_supported())
