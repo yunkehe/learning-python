@@ -2,4 +2,4 @@
 notes of learning python
 
 《Python从入门到实践》P14
-《Python从入门到实践》P119
+《Python从入门到实践》P124 添加外星人
