@@ -21,3 +21,5 @@ class Settings():
         self.fleet_drop_speed = 10
         # 1 向右移动 -1向左移动
         self.fleet_direction = 1
+
+        self.ship_limit = 1
