@@ -13,7 +13,7 @@ class SpiderMain(object):
         count = 1
         self.urls.add_new_url(rout_url)
 
-        while self.urls.has_new_url() and count < 2:
+        while self.urls.has_new_url() and count < 10:
             try:
                 new_url = self.urls.get_new_url()
                 print('craw url count ', count, new_url)

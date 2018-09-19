@@ -25,10 +25,10 @@ class blog():
 
 class hello:        
     def GET(self, name):
-        if not name: 
-            name = 'World'
-        return 'Hello, ' + name + '!'
-        # return open(r'./html/1.html', 'r').read()
+        query = web.input()
+        print(query)
+        # print(web.ctx.env)
+        return open(r'D:\\CODING\\python-on-the-way\\web.py\\html\\form.html', 'r').read().encode('utf-8').decode('utf-8')
 
 if __name__ == "__main__":
     app.run()
