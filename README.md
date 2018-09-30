@@ -1,5 +1,13 @@
-# python-on-the-way
-notes of learning python
+# python学习笔记
 
-《Python从入门到实践》P14
-《Python从入门到实践》P133 统计信息
+
+### alien_invasion
+*外星人入侵游戏*
+
+### beginner
+*python基础*
+
+### creeper
+*一个简单的爬虫*
+
+> 《Python从入门到实践》
